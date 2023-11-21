@@ -47,8 +47,11 @@ This app connects to Back4App for task data storage. Ensure you have an active B
 
 Update the Parse Server configuration in lib/main.dart and lib/task_service.dart with your Parse Server information:
 static const String parseServerUrl = 'https://parseapi.back4app.com';
+
 static const String parseApplicationId = 'YOUR_PARSE_APPLICATION_ID';
+
 static const String parseRestApiKey = 'YOUR_PARSE_REST_API_KEY';
+
 
 5. Project opens in VS Code editor. Now open terminal n VSCode and perform below steps  
 
