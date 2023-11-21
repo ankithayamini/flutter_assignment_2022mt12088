@@ -23,7 +23,7 @@ Before you begin, ensure your development environment meets the following requir
 
 - **Flutter:** Ensure you have Flutter installed. Follow the instructions on the [official Flutter installation guide](https://flutter.dev/docs/get-started/install).
 - **Dart:** The project uses Dart as the programming language. Dart comes bundled with Flutter.
-- **Parse Server:** You need access to a Parse Server instance. You can set up your own Parse Server or use a hosted service like Back4App. Update the Parse Server configuration in `lib/main.dart and` and `lib/task_service.dart` with your Parse Server information.
+- **Parse Server:** You need access to a Parse Server instance. You can set up your own Parse Server or use a hosted service like Back4App. Update the Parse Server configuration in `lib/main.dart` with your Parse Server information.
 - **Visual Studio Code:** [Download Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Setup
@@ -45,7 +45,7 @@ This app connects to Back4App for task data storage. Ensure you have an active B
 
 4. Update Parse Server Configuration:
 
-Update the Parse Server configuration in lib/main.dart and lib/task_service.dart with your Parse Server information:
+Update the Parse Server configuration in lib/main.dart with your Parse Server information:
 static const String parseServerUrl = 'https://parseapi.back4app.com';
 
 static const String parseApplicationId = 'YOUR_PARSE_APPLICATION_ID';
