@@ -61,6 +61,7 @@ flutter pub get
 
 8. Run the app:
 flutter run
-select a device Windows/Chrome/Edge
+
+Select a device (Windows/Chrome/Edge) to run the app.
 
 
