@@ -41,7 +41,7 @@ This app connects to Back4App for task data storage. Ensure you have an active B
 - Sign up for a Back4App account: Back4App
 - Create a new app on Back4App.
 - Obtain your Back4App API keys from the app settings.
-- Configure your Flutter app with the Back4App API keys. Update the TaskService class in lib/task_service.dart with your API keys.
+- Configure your Flutter app with the Back4App API keys.
 
 4. Update Parse Server Configuration:
 
